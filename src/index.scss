@@ -1,0 +1,18 @@
+@import 'normalize.css';
+
+html, body {
+    min-width: 340px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5vw;
+  flex-wrap: wrap;
+  background-color: rgb(215, 237, 237);
+  min-height: 10vh;
+}
+
+.linksRow {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: auto;
+}
+
+.link {
+    display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 212, 209);
+  margin-top: 10px;
+}
+
+.logo {
+  border-radius: 2px;
+  display: block;
+}
+
+.name {
+    font-size: 36px;
+  font-weight: 700;
+  color: rgb(35, 75, 62);
+  margin-left: 0;
+  margin-right: auto;
+}
