@@ -1,12 +1,18 @@
 //import styles from "./App.module.scss";
 import { FC } from "react";
-import MainPage from "../pages/MainPage/MainPage";
+import MainRoutes from "./mainRoutes";
+import { Header,Footer } from "../widgets";
+import {
+  RouterProvider,
+} from "react-router-dom";
 
 const App: FC = () => {
 
   return (
 <>
-<MainPage />
+<Header />
+<RouterProvider router={MainRoutes} />
+<Footer />
 </>
   )
 }
