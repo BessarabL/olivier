@@ -1,7 +1,6 @@
 export const links = [
-    { name: "Todo", link: "#" },
-    { name: "Виртуализация большого списка", link: "#" },
-    { name: "ченить еще", link: "#" },
-    { name: "Обо мне", link: "#" },
-    { name: "Контакты", link: "#" },
+    { name: "Todo", link: "/todos" },
+    { name: "Виртуализация большого списка", link: "/hugelist" },
+    { name: "чатик", link: "/chat" },
+    { name: "Контакты", link: "/contacts" },
   ];

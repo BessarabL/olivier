@@ -1,15 +1,12 @@
-import { Header, Landing, Footer } from "../../widgets"
 import { FC } from "react";
-import cls from "./MainPage.module.scss"
-const MainPage: FC = () => {
+import cls from "./MainPage.module.scss";
 
-    return (
-  <div className={cls.page}>
-  <Header />
-  <Landing />
-  <Footer />
-  </div>
-    )
-  }
-  
-  export default MainPage
+
+export const MainPage: FC = () => {
+  return (
+    <main className={cls.container}>
+      <div>погода</div>
+      <div> какие-то статейки мб новости</div>
+</main>
+  );
+};

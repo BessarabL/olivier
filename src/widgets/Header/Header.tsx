@@ -6,18 +6,18 @@ import { links } from "./constants";
 export const Header: FC = () => {
   return (
     <header className={cls.header}>
-      <img
+      <a href="/" className={cls.logoLink} ><img
         src={OlivierLogo}
         width={100}
         height={50}
         alt="Sweet pets"
         className={cls.logo}
       />
-      <p className={cls.name} >Оливье</p>
+      <p className={cls.name} >Оливье</p></a>
       <ul className={cls.linksRow}>
         {links.map((item) => (
           <li key={links.indexOf(item)}>
-            <a className={cls.link}>
+            <a className={cls.link} href={item.link}>
               {item.name}
             </a>
           </li>
