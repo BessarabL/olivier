@@ -7,11 +7,14 @@ import MainRoutes from "./mainRoutes";
 import {
   RouterProvider,
 } from "react-router-dom";
+import { ThemeProvider } from "./app/ThemeProvider/index";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
+     <ThemeProvider>
     <Provider store={store}>
       <RouterProvider router={MainRoutes} />
     </Provider>
+    </ThemeProvider>
   </React.StrictMode>,
 )

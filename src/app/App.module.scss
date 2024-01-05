@@ -1,0 +1,12 @@
+@import "./../colorsConstants.scss";
+
+.light{
+background-color: $lightGray;
+color: $dark;
+}
+
+.dark{
+    background-color: $dark;
+    color: $lightGray;
+}
+
